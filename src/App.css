@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #151719;
+  left: -200px;
+  transition: all 500ms linear;
+  z-index: 10;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  color: rgba(230, 230, 230, 0.9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+}
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 230px;
+  top: 20px;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background: #151719;
+  margin: 5px 0px;
+}
+
+.body {
+  background-color: #dcd0c0;
+}
+
+.nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #c0b283;
+  padding: 20px;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding-left: 50px;
+  text-decoration: none;
+}
+.nav a:hover {
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section {
+  min-height: 750px;
+}
+
+.home {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(image/IMG_9902.JPG);
+}
+
+.about {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 750px;
+  background-image: url(image/escritorio.jpg);
+}
+
+.experience {
+  background-color: #f4f4f4;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-image: url(image/escritorio.jpg);
+  background-size: 50%;
+  padding: 50px 0px;
+}
+
+.education {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url(image/kisspng.png);
+  background-size: 40%;
+  background-position-y: bottom;
+}
+
+.skill {
+  background-color: #f4f4f4;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-position-y: bottom;
+  background-image: url(image/skills-header-no-text.jpg);
+  height: 500px;
+}
+
+.interests {
+  background-color: #fff0f5;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(image/1280x853_px_books_camera_computer_Computer_Screen_glass_Keyboards_Languages-1337079.jpg);
+  background-size: 100%;
+  background-position-y: bottom;
+  height: 500px;
+}
+
+.row icon {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  padding-top: 8px;
+  margin-top: 50px;
+  background: #c3c3c3;
+  text-align: center;
+}
