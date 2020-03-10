@@ -1,0 +1,31 @@
+{
+  "mahasiswa": [
+    {
+      "nim": "1741720201",
+      "nama": "Afifah",
+      "alamat": "Pacul Permai",
+      "hp": "085649315104",
+      "angkatan": "2017",
+      "status": "aktif",
+      "id": "1741720201"
+    },
+    {
+      "nim": "1741720202",
+      "nama": "Milla",
+      "alamat": "Jl. Kembang Turi",
+      "hp": "08566543090",
+      "angkatan": "2018",
+      "status": "cuti",
+      "id": "1741720202"
+    },
+    {
+      "nim": "1741720203",
+      "nama": "Nugra",
+      "alamat": "Jl. Papa Biru",
+      "hp": "08979866780",
+      "angkatan": "2017",
+      "status": "lulus",
+      "id": "1731720205"
+    }
+  ]
+}
